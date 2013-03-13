@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>FoodScape</title>
+        <link href="jquery-mobile/jquery.mobile-1.2.0.min.css" rel="stylesheet" type="text/css" />
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+        <script src="js/script.js" type="text/javascript"></script>
+
+        <script src="cordova.js" type="text/javascript"></script>
+        <script src="jquery-mobile/jquery-1.8.2.min.js" type="text/javascript"></script>
+        <script src="jquery-mobile/jquery.mobile-1.2.0.min.js" type="text/javascript"></script>
+        
+    </head> 
+    <body> 
+    <!-- Home -->
+        <div data-role="content">
+            <img src="images/FoodScape3_200x100.png">
+            <fieldset class="ui-grid-a">
+                <div class="ui-block-a"><a href="signup.html" data-role="button" data-theme="a" data-mini="true" data-icon="info">Sign up</a></div>
+                <div class="ui-block-b"><a href="login.html" data-role="button"  data-mini="true">Login</a></div>
+            </fieldset><br />
+            <fieldset class="ui-grid-a">
+            	<div class="ui-block-a"><input name="search" id="searchinput1" placeholder="Chicken" value=""
+                    type="search" data-mini="true"></div>
+            	<div class="ui-block-b"><a href="search.html" data-role="button" data-theme="b" data-mini="true" data-inline="true">Search</a></div>	   
+            </fieldset>
+      
+            <div data-role="fieldcontain">
+            <label for="selectmenu1">
+                Choose:
+            </label>
+                <select name="" data-mini="true">
+                    <option value="option1">
+                        ethnicity
+                    </option>
+                    <option value="value">
+                        recipe name
+                    </option>
+                    <option value="value">
+                        cooking action
+                    </option>
+                </select>
+        </div>
+                    
+        <div style="height:200px;width:100%;border:3px solid #ccc;overflow:auto;">
+        <p><strong><a href="recipe.html">Chicken Parmesan</a></strong><br />
+            Rating: 5 <br />
+            Publish: Chef Ramsay
+        </p><hr />
+            
+        <p><strong><a href="#">Chicken Marsala</a></strong><br />
+            Rating: 4 <br />
+            Publish: John Doe
+        </p><hr />
+        
+        <p><strong><a href="#">Hunan Chicken</a></strong><br />
+            Rating: 4 <br />
+            Publish: Jane
+        </p><hr />    
+         
+        <p><strong><a href="#">Chicken Parmesan</a></strong><br />
+            Rating: 3 <br />
+            Publish: Barack Obama
+        </p><hr />  
+        
+        <p><strong><a href="#">Chicken Pot Pie</a></strong><br />
+            Rating: 3 <br />
+            Publish: Jimmy
+        </p><hr />  
+        
+        <p><strong><a href="#">Lemon Chicken</a></strong><br />
+            Rating: 3 <br />
+            Publish: Andy
+        </p><hr />  
+        
+        <p><strong><a href="#">Chicken Biriyani</a></strong><br />
+            Rating: 2 <br />
+            Publish: Tim
+        </p><hr />  
+        
+        <p><strong><a href="#">Chicken Enchiladas with Salsa Verde</a></strong><br />
+            Rating: 2 <br />
+            Publish: Jon
+        </p><hr />  
+        
+        <p><strong><a href="#">Cider-Roasted Chicken</a></strong><br />
+            Rating: 2 <br />
+            Publish: Michael
+        </p><hr />  
+        
+        <p><strong><a href="#">Curry Chicken</a></strong><br />
+            Rating: 2 <br />
+            Publish: Dwyane
+        </p><hr />  
+            
+        <p><strong><a href="#">Mediterranean Chicken</a></strong><br />
+            Rating: 2 <br />
+            Publish: Kevin
+        </p><hr />  
+            
+        <p><strong><a href="">Miso Chicken</a></strong><br />
+            Rating: 1 <br />
+            Publish: Wes
+        </p><hr />  
+        
+        <p><strong><a href="#">Pan-Grilled Chicken with Cranberry Salsa</a></strong><br />
+            Rating: 1 <br />
+            Publish: Ben
+        </p><hr />      
+        </div>
+
+        </div>
+        <div data-theme="e" data-role="footer" data-position="fixed" class="ui-bar">
+            <div data-role="controlgroup" data-type="horizontal">
+                <ul class="social" id="css3">
+                   <li class="facebook">
+				        <a href="#"><strong>fb</strong></a>
+        			</li>
+        			<li class="googlePlus">
+        				<a href="#"><strong>g+</strong></a>
+        			</li> 
+                 </ul>  
+               <h3>
+                &copy; FoodScape - 2013
+               </h3>    
+            </div>  
+        </div>
+
+    </body>
+    </html>
