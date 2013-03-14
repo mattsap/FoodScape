@@ -1,0 +1,20 @@
+#searchBoxOne input.search {
+    font-size: 16px;
+    color: #999;
+    padding: 6px;
+    -moz-box-shadow:inset 2px 2px 5px #ccc;
+    box-shadow:inset 2px 2px 5px #ccc;
+    border: 1px solid #b8b8b8;
+}
+#searchBoxOne input.submit {
+    background: url("../images/icons/search.png") top left no-repeat;
+    width: 67px;
+    height: 32px;
+    border: none;
+    color: #dee4ff;
+    cursor: pointer;
+}
+#searchBoxOne input.submit:hover,
+#searchBoxOne input.submit.hover {
+    background: url("../images/icons/search.png") bottom left no-repeat;
+}
